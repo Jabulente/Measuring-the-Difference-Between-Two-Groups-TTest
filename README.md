@@ -45,7 +45,7 @@ Suppose you want to test whether several physiological parameters differ signifi
 
 The results are returned in a DataFrame like this:
 
-1.0. *Independent T-test Results**
+1.0. *Independent T-test Results*
 
 ![Independent ttest results](./Resources/Independent_ttest.jpg)
 
@@ -74,7 +74,7 @@ The results are returned in a DataFrame like this:
 
 ```
 ttest-python-implementation/
-├── ttest_analysis.py         # Main script for t-test execution
+├── ttest_analysis.py      # Main script for t-test execution
 ├── ttest_utils.py            # Helper functions and statistical logic
 ├── example_data.csv          # Sample dataset for demonstration
 ├── ttest_report.ipynb        # Jupyter notebook for exploratory testing
