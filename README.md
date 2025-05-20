@@ -45,19 +45,18 @@ Suppose you want to test whether several physiological parameters differ signifi
 
 The results are returned in a DataFrame like this:
 
-1.0. *Independent T-test Results*
+1.0. **Independent T-test Results**
 
 ![Independent ttest results](./Resources/Independent_ttest.jpg)
 
-
-2.0. *Paired Sample T-test Results*
+2.0. **Paired Sample T-test Results**
 
 ![Paired Sample T-test Results](./Resources/paired_ttest.jpg)
 
-
-3.0. *One Sample T-test Results*
+3.0. **One Sample T-test Results**
 
 ![One Sample T-test Results](./Resources/one_sample_ttest.jpg)
+
 ---
 
 ## **Technologies Used**
@@ -74,11 +73,19 @@ The results are returned in a DataFrame like this:
 
 ```
 ttest-python-implementation/
-├── ttest_analysis.py      # Main script for t-test execution
-├── ttest_utils.py            # Helper functions and statistical logic
-├── example_data.csv          # Sample dataset for demonstration
-├── ttest_report.ipynb        # Jupyter notebook for exploratory testing
-└── README.md                 # Project overview and instructions
+├── Datasets/                  # Contains datasets used for t-test analyses
+├── Documents/                 # Documentation files related to the project
+├── Notebooks/                 # Jupyter notebooks demonstrating t-test implementations
+├── Outputs/                   # Generated outputs from analyses
+├── Resources/                 # Additional resources or references
+├── Scripts/                   # Python scripts for performing t-tests
+├── Independent_ttest.ipynb    # Notebook for independent two-sample t-test
+├── One-sample_ttest.ipynb     # Notebook for one-sample t-test
+├── Paired_ttest.ipynb         # Notebook for paired-sample t-test
+├── T-test Pairwise Comparison.ipynb  # Notebook for pairwise t-test comparisons
+├── main.py                    # Main script to execute t-test analyses
+├── README.md                  # Project overview and instructions
+└── LICENSE                    # License information
 ```
 
 ---
