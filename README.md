@@ -45,11 +45,19 @@ Suppose you want to test whether several physiological parameters differ signifi
 
 The results are returned in a DataFrame like this:
 
-| Parameter       | Test Type              | t-Statistic | df | p-Value | Mean Group A | Mean Group B | Interpretation                            |
-| --------------- | ---------------------- | ----------- | -- | ------- | ------------ | ------------ | ----------------------------------------- |
-| blood\_pressure | Independent Two-Sample | 2.34        | 58 | 0.023   | 120.4        | 115.1        | Significant difference at alpha = 0.05    |
-| heart\_rate     | Independent Two-Sample | 0.87        | 58 | 0.389   | 75.2         | 74.6         | No significant difference at alpha = 0.05 |
+1.0. *Independent T-test Results**
 
+![Independent ttest results](./Resources/Independent_ttest.jpg)
+
+
+2.0. *Paired Sample T-test Results*
+
+![Paired Sample T-test Results](./Resources/paired_ttest.jpg)
+
+
+3.0. *One Sample T-test Results*
+
+![One Sample T-test Results](./Resources/one_sample_ttest.jpg)
 ---
 
 ## **Technologies Used**
