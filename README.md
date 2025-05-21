@@ -1,4 +1,4 @@
-# **ttest-python-implementation**
+# **T-test-Python-Implementation**
 
 ## **Overview**
 
@@ -6,7 +6,6 @@ This project provides a comprehensive implementation of Student’s *t*-tests us
 
 The implementation also includes support for analyzing multiple parameters across multiple groups. All test outputs are formatted into structured **DataFrames** for clarity, and each result includes interpretation to help users draw meaningful conclusions from their data.
 
----
 
 ## **Goals**
 
@@ -16,7 +15,6 @@ The implementation also includes support for analyzing multiple parameters acros
 * Automatically generate **interpretations** based on p-values and test statistics.
 * Ensure reproducibility, readability, and flexibility for adaptation.
 
----
 
 ## **Implemented Features**
 
@@ -29,7 +27,6 @@ The implementation also includes support for analyzing multiple parameters acros
 * **Automatic Interpretation**: Clear, concise interpretations based on standard alpha levels (e.g., 0.05).
 * **Edge Case Handling**: Includes checks for unequal variances and small sample sizes.
 
----
 
 ## **Example Use Case**
 
@@ -39,7 +36,6 @@ Suppose you want to test whether several physiological parameters differ signifi
 * The p-values and test statistics.
 * A clear explanation of the result in plain language (e.g., "There is no significant difference in blood pressure between Group A and Group B").
 
----
 
 ## **Sample Output Format**
 
@@ -57,7 +53,6 @@ The results are returned in a DataFrame like this:
 
 ![One Sample T-test Results](./Resources/one_sample_ttest.jpg)
 
----
 
 ## **Technologies Used**
 
@@ -67,7 +62,7 @@ The results are returned in a DataFrame like this:
 * **NumPy** – For numerical operations.
 * **Jupyter Notebook** – For demonstrations and visualizations (optional).
 
----
+
 
 ## **Project Structure**
 
@@ -88,7 +83,6 @@ ttest-python-implementation/
 └── LICENSE                    # License information
 ```
 
----
 
 ## **How to Use**
 
@@ -119,7 +113,6 @@ ttest-python-implementation/
    print(result_df)
    ```
 
----
 
 ## **Interpretation Guidelines**
 
@@ -127,13 +120,11 @@ ttest-python-implementation/
 * **p-value ≥ 0.05**: There is no statistically significant difference.
 * Always consider **effect size** and **sample size** along with p-values to draw meaningful conclusions.
 
----
 
 ## **Contributing**
 
 Contributions are welcome! If you have ideas for enhancements (e.g., adding ANOVA or visualizations), feel free to open an issue or submit a pull request.
 
----
 
 ## **License**
 
