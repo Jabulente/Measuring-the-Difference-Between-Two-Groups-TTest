@@ -1,10 +1,9 @@
-# **T-test-Python-Implementation**
+ <h1 align="center">  T-Test Analysis | Measuring the Difference Between Two Groups </h1>
+
 
 ## **Overview**
 
-This project provides a comprehensive implementation of Student’s *t*-tests using Python. It focuses on statistical hypothesis testing for comparing means across one or more groups, using common t-test methods: **one-sample**, **independent two-sample**, and **paired-sample t-tests**. The goal is to offer clean, readable Python code that can be adapted for educational purposes, research, or data analysis tasks.
-
-The implementation also includes support for analyzing multiple parameters across multiple groups. All test outputs are formatted into structured **DataFrames** for clarity, and each result includes interpretation to help users draw meaningful conclusions from their data.
+This project provides a comprehensive implementation of Student’s *t*-tests using Python. It focuses on statistical hypothesis testing for comparing means across one or more groups, using common t-test methods: **one-sample**, **independent two-sample**, and **paired-sample t-tests**. The goal is to offer clean, readable Python code that can be adapted for educational purposes, research, or data analysis tasks. The implementation also includes support for analyzing multiple parameters across multiple groups. All test outputs are formatted into structured **DataFrames** for clarity, and each result includes interpretation to help users draw meaningful conclusions from their data.
 
 
 ## **Goals**
@@ -23,9 +22,8 @@ The implementation also includes support for analyzing multiple parameters acros
 * **Paired sample t-test**: Compares means from the same group at different times or under two conditions.
 * **Multi-variable Support**: Automatically applies t-tests across multiple columns of numerical data.
 * **Grouped Analysis**: Supports t-tests for grouped data (e.g., comparing treatment vs. control).
-* **Result Formatting**: Output includes test statistic, degrees of freedom, p-value, mean difference, and interpretation, all neatly structured in a **Pandas DataFrame**.
+* **Result Formatting**: Output includes test statistic, p-value, mean difference, and interpretation, all neatly structured in a **Pandas DataFrame**.
 * **Automatic Interpretation**: Clear, concise interpretations based on standard alpha levels (e.g., 0.05).
-* **Edge Case Handling**: Includes checks for unequal variances and small sample sizes.
 
 
 ## **Example Use Case**
