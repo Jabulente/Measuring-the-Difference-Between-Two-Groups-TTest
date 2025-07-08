@@ -26,37 +26,3 @@ def one_sample_t_test(df, columns, population_means, alpha=0.05):
             })
     
     return pd.DataFrame(results)
-
-
-# Generating Demostration datasets
-def dataset_generation(sample_size=1000):
-    np.random.seed(42)
-    Plot = np.random.choice(['Plot 1', 'Plot 2', 'Plot 3', 'Plot 4'], size=sample_size)
-    Nitrogen = np.random.normal(5, 10, size=sample_size)
-    Phosphorous = np.random.normal(7, 2, size=sample_size) 
-    Calicium = np.random.normal(5, 8, size=sample_size)
-    Zinc = np.random.normal(2, 5, size=sample_size)
-    Magnesium = np.random.normal(5, 10, size=sample_size)
-    Sulphur = np.random.normal(3, 9, size=sample_size)
-    
-    data = pd.DataFrame({
-        "Plot": Plot,
-        'Nitrogens': Nitrogen,
-        'Phosphorous': Phosphorous,
-        'Calicium': Calicium,
-        'Zinc': Zinc,
-        'Magnesium': Magnesium,
-        'Sulphur': Sulphur
-        
-    })
-    return data
-
-pd.set_option('display.float_format', lambda x: '%.2f' % x)
-pd.set_option('display.max_columns', 10)
-df = dataset_generation(sample_size=1000)
-display(df)
-
-
-population_means = {"Nitrogens": 2.5, "Phosphorous": 3, "Calicium":4, "Zinc":6, "Magnesium":5.7, "Sulphur":3 }
-results_df = one_sample_t_test(df, df.columns, population_means)
-display(results_df)

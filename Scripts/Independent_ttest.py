@@ -25,15 +25,3 @@ def Independent_ttest(df, group_column, Variables):
         
     results_df = pd.DataFrame(results)
     return results_df
-
-
-# Importing Datasets
-pd.set_option('display.max_columns', 8)
-filepath = "Datasets/Fertilizer and Light Exposure Experiment Dataset.csv"
-df = pd.read_csv(filepath)
-
-# Implementations 
-Variables = df.select_dtypes(include=[np.number]).columns # This are compared numerical variables
-group_col = 'Fertilizer' # Column contains sub-categories eg. synthetic, organic and control group 
-Results = Independent_ttest(df, group_column=group_col, Variables=Variables)
-display(Results)
